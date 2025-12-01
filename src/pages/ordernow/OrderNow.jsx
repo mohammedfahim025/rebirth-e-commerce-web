@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import sizeChart from "../../assets/cloth-size.png";
+import sizeChart from "../../assets/size chart - Copy.png";
 
 export default function OrderNow() {
   const location = useLocation();
