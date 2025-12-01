@@ -85,7 +85,7 @@ const Navbar = () => {
         <input
           type="text"
           placeholder="Search..."
-          className="w-full px-5 py-4 rounded-xl border border-gray-400 focus:outline-none"
+          className="w-full px-5 py-4 text-white rounded-xl border border-gray-400 focus:outline-none"
         />
       </div>
 
@@ -99,7 +99,7 @@ const Navbar = () => {
           ></div>
 
           {/* Animated Menu */}
-          <div className="fixed top-0 right-0 h-full w-64 bg-black text-white shadow-xl p-6 z-30 transition-all duration-300">
+          <div className="fixed top-0 right-0 h-full w-64 bg-black text-white shadow-xl p-6  transition-all duration-300">
             <button
               onClick={() => setMenuOpen(false)}
               className="text-right w-full mb-6 text-white"
