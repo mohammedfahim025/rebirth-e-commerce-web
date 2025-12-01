@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className="p-4 w-full py-4">
-      <div className="flex bg-black justify-between items-center px-6 md:px-20 py-6 rounded-2xl">
+      <div className="flex bg-[#222222] justify-between items-center px-6 md:px-20 py-6 rounded-2xl">
         {/* Logo */}
         <a href="/">
           <img src={logo} alt="logo" className="h-10 cursor-pointer" />
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="flex gap-5 md:hidden">
           {/* Mobile Search Button */}
           <svg
-            className="text-2xl bg-black text-white p-2 cursor-pointer"
+            className="text-2xl  text-white p-2 cursor-pointer"
             width="26"
             height="26"
             fill="none"
@@ -65,7 +65,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <svg
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-2xl bg-black text-white p-2 cursor-pointer"
+            className="text-2xl text-white p-2 cursor-pointer"
             width="28"
             height="28"
             fill="none"
