@@ -11,7 +11,7 @@ import demo2 from "../assets/1.png";
 
 const CarouselCard = () => {
   return (
-    <div className="p-5 bg-[#102B21] flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto rounded-3xl gap-8">
+    <div className="p-5 bg-[#151515] border border-[#363636] flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto rounded-3xl gap-8">
       {/* ---------- LEFT TEXT SECTION ---------- */}
       <div className="flex flex-col justify-center items-center text-center w-full md:w-1/2 px-4">
         <h2 className="text-xl sm:text-2xl text-[#879590] mb-2"></h2>
