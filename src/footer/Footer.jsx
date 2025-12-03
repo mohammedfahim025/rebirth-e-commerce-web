@@ -36,7 +36,7 @@ export default function Footer() {
 
             {/* Social */}
             <div>
-              <h3 className="text-sm font-semibold text-gray-700 mb-3">Follow Us</h3>
+              <h3 className="text-sm font-semibold text-white mb-3">Follow Us</h3>
               <div className="space-y-2  ">
                 <a href="https://www.instagram.com/solonee.clo?igsh=N2Fid3MwdW5jOXgw" className="flex items-center gap-2 text-white hover:text-amber-600 text-xs">
                   <Instagram size={18}/> Instagram
