@@ -32,13 +32,13 @@ import knit from "../assets/9 child.JPG"
 
 const AllProducts = () => {
   const products = [
-    { id: 1, title: "CH Hoodie black", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: mesaJacket, child: [heavyChild, chHoodie] },
-    { id: 2, title: "Black leather Jacket", category: "Hoodie", oldPrice: 40, price: 4000, stock: "In Stock", discount: "-15%", img: heavyJacket, child: [machaChild, leater] },
+    { id: 1, title: "CH Hoodie black", category: "Hoodie", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: mesaJacket, child: [heavyChild, chHoodie] },
+    { id: 2, title: "Black leather Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4000, stock: "In Stock", discount: "-15%", img: heavyJacket, child: [machaChild, leater] },
     { id: 3, title: "Black utility jacket", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: machajacket, child: [utility, utilitys] },
     { id: 4, title: "Chrome Hearts sweater", category: "Sweaters", oldPrice: 40, price: 1800, stock: "In Stock", discount: "-15%", img: oatmeal, child: [chrome, chorms] },
     { id: 5, title: "The Classic Bomber", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: classic, child: [classicChild] },
     { id: 6, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjack, child: [white, whites] },
-    { id: 7, title: "CH Hoodie white", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [] },
+    { id: 7, title: "CH Hoodie white", category: "Hoodie", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [] },
     { id: 8, title: "REB1RTH Essential Knit Crew", category: "Coats & Jackets", oldPrice: 40, price: 1800, stock: "Out of Stock", discount: "-15%", img: blackjackt, child: [essential, knit] },
   ];
 

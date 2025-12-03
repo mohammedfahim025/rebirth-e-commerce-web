@@ -315,10 +315,10 @@ export default function Checkout() {
                 <div className="flex justify-between bg-[#1F1F1F] border border-[#3C3C3C] gap-3 p-3 rounded-lg">
                   <div className="flex items-center gap-2">
                     <img src={BkashLogo} className="w-6 h-6" />
-                    <p className="font-medium">Bkash</p>
+                    <p className="font-medium text-white">Bkash</p>
                   </div>
                   <div className="flex items-center px-5">
-                    <p className="text-sm text-gray-500">01871122774</p>
+                    <p className="text-sm text-white">01871122774</p>
                   </div>
                 </div>
 
