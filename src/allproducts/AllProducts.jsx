@@ -7,9 +7,9 @@ import mesaJacket from "../assets/3.png";
 import heavyJacket from "../assets/1.png";
 import machajacket from "../assets/2.png";
 import oatmeal from "../assets/4.png";
-import classic from "../assets/5.png";
+import classic from "../assets/5prent.png";
 import blackjack from "../assets/6.png";
-import blackjacks from "../assets/8.png";
+import blackjacks from "../assets/5.png";
 import blackjackt from "../assets/essential-knit.WEBP";
 
 // child images
@@ -23,7 +23,6 @@ import utility from "../assets/3.png"
 import white from "../assets/6child.JPG";
 import whites from "../assets/6childs.JPG"
 import cuteWhite from "../assets/7child.JPG";
-import cuteWhites from "../assets/7childs.WEBP"
 import essential from "../assets/9.png"
 import classicChild from "../assets/5-child.JPG"
 import chrome from "../assets/4-child.JPG"
@@ -39,7 +38,7 @@ const AllProducts = () => {
     { id: 4, title: "Chrome Hearts sweater", category: "Sweaters", oldPrice: 40, price: 1800, stock: "In Stock", discount: "-15%", img: oatmeal, child: [chrome, chorms] },
     { id: 5, title: "The Classic Bomber", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: classic, child: [classicChild] },
     { id: 6, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjack, child: [white, whites] },
-    { id: 7, title: "CH Hoodie white", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [cuteWhite, cuteWhites] },
+    { id: 7, title: "CH Hoodie white", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [] },
     { id: 8, title: "REB1RTH Essential Knit Crew", category: "Coats & Jackets", oldPrice: 40, price: 1800, stock: "Out of Stock", discount: "-15%", img: blackjackt, child: [essential, knit] },
   ];
 
