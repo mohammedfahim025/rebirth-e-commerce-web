@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 // main images
-import mesaJacket from "../assets/1.png";
-import heavyJacket from "../assets/2.png";
-import machajacket from "../assets/3.png";
+import mesaJacket from "../assets/ch-hoodie.WEBP";
+import heavyJacket from "../assets/black-leather.WEBP";
+import machajacket from "../assets/utility-jacket.jpg";
 import oatmeal from "../assets/4.png";
 import classic from "../assets/5.png";
 import blackjack from "../assets/6.png";
 import blackjacks from "../assets/8.png";
-import blackjackt from "../assets/9.png";
+import blackjackt from "../assets/essential-knit.WEBP";
 
 // child images
 import heavyChild from "../assets/1.png";
@@ -19,14 +19,14 @@ import CarouselCard from "../caruselCard/CarouselCard";
 
 const AllProducts = () => {
   const products = [
-    { id: 1, title: "The Mesa Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: mesaJacket, child: [] },
-    { id: 2, title: "CH-Hoodie", category: "Hoodie", oldPrice: 40, price: 3000, stock: "In Stock", discount: "-15%", img: heavyJacket, child: [heavyChild] },
-    { id: 3, title: "The Mocha Chore", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: machajacket, child: [machaChild] },
-    { id: 4, title: "Knit Jumper", category: "Sweaters", oldPrice: 40, price: 3000, stock: "In Stock", discount: "-15%", img: oatmeal, child: [] },
+    { id: 1, title: "CH Hoodie black", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: mesaJacket, child: [] },
+    { id: 2, title: "Black leather Jacket", category: "Hoodie", oldPrice: 40, price: 4000, stock: "In Stock", discount: "-15%", img: heavyJacket, child: [heavyChild] },
+    { id: 3, title: "Black utility jacket", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: machajacket, child: [machaChild] },
+    { id: 4, title: "Chrome Hearts sweater", category: "Sweaters", oldPrice: 40, price: 1800, stock: "In Stock", discount: "-15%", img: oatmeal, child: [] },
     { id: 5, title: "The Classic Bomber", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: classic, child: [] },
     { id: 6, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjack, child: [] },
-    { id: 7, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [] },
-    { id: 8, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjackt, child: [] },
+    { id: 7, title: "CH Hoodie white", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [] },
+    { id: 8, title: "REB1RTH Essential Knit Crew", category: "Coats & Jackets", oldPrice: 40, price: 1800, stock: "Out of Stock", discount: "-15%", img: blackjackt, child: [] },
   ];
 
   const categories = ["All", "Coats & Jackets", "Hoodie", "Sweaters"];
