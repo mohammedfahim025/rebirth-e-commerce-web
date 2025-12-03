@@ -6,8 +6,8 @@ import "swiper/css/pagination";
 
 import oatmeal from "../assets/1.png";
 import oatmeals from "../assets/2.png";
-import demo from "../assets/1.png";
-import demo2 from "../assets/1.png";
+import demo from "../assets/3.png";
+import demo2 from "../assets/4.png";
 
 const CarouselCard = () => {
   return (

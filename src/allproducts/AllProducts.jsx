@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 // main images
-import mesaJacket from "../assets/ch-hoodie.WEBP";
-import heavyJacket from "../assets/black-leather.WEBP";
-import machajacket from "../assets/utility-jacket.jpg";
+import mesaJacket from "../assets/3.png";
+import heavyJacket from "../assets/1.png";
+import machajacket from "../assets/2.png";
 import oatmeal from "../assets/4.png";
 import classic from "../assets/5.png";
 import blackjack from "../assets/6.png";
@@ -13,20 +13,34 @@ import blackjacks from "../assets/8.png";
 import blackjackt from "../assets/essential-knit.WEBP";
 
 // child images
+import chHoodie from "../assets/1-child.JPG"
+import leater from "../assets/2child.JPG"
+import utilitys from "../assets/3child.JPG"
 import heavyChild from "../assets/1.png";
-import machaChild from "../assets/1.png";
+import machaChild from "../assets/2.png";
 import CarouselCard from "../caruselCard/CarouselCard";
+import utility from "../assets/3.png"
+import white from "../assets/6child.JPG";
+import whites from "../assets/6childs.JPG"
+import cuteWhite from "../assets/7child.JPG";
+import cuteWhites from "../assets/7childs.WEBP"
+import essential from "../assets/9.png"
+import classicChild from "../assets/5-child.JPG"
+import chrome from "../assets/4-child.JPG"
+import chorms from "../assets/4childs.JPG"
+import knit from "../assets/9 child.JPG"
+
 
 const AllProducts = () => {
   const products = [
-    { id: 1, title: "CH Hoodie black", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: mesaJacket, child: [] },
-    { id: 2, title: "Black leather Jacket", category: "Hoodie", oldPrice: 40, price: 4000, stock: "In Stock", discount: "-15%", img: heavyJacket, child: [heavyChild] },
-    { id: 3, title: "Black utility jacket", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: machajacket, child: [machaChild] },
-    { id: 4, title: "Chrome Hearts sweater", category: "Sweaters", oldPrice: 40, price: 1800, stock: "In Stock", discount: "-15%", img: oatmeal, child: [] },
-    { id: 5, title: "The Classic Bomber", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: classic, child: [] },
-    { id: 6, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjack, child: [] },
-    { id: 7, title: "CH Hoodie white", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [] },
-    { id: 8, title: "REB1RTH Essential Knit Crew", category: "Coats & Jackets", oldPrice: 40, price: 1800, stock: "Out of Stock", discount: "-15%", img: blackjackt, child: [] },
+    { id: 1, title: "CH Hoodie black", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: mesaJacket, child: [heavyChild, chHoodie] },
+    { id: 2, title: "Black leather Jacket", category: "Hoodie", oldPrice: 40, price: 4000, stock: "In Stock", discount: "-15%", img: heavyJacket, child: [machaChild, leater] },
+    { id: 3, title: "Black utility jacket", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "In Stock", discount: "-15%", img: machajacket, child: [utility, utilitys] },
+    { id: 4, title: "Chrome Hearts sweater", category: "Sweaters", oldPrice: 40, price: 1800, stock: "In Stock", discount: "-15%", img: oatmeal, child: [chrome, chorms] },
+    { id: 5, title: "The Classic Bomber", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "In Stock", discount: "-15%", img: classic, child: [classicChild] },
+    { id: 6, title: "The Black Jacket", category: "Coats & Jackets", oldPrice: 40, price: 4500, stock: "Out of Stock", discount: "-15%", img: blackjack, child: [white, whites] },
+    { id: 7, title: "CH Hoodie white", category: "Coats & Jackets", oldPrice: 40, price: 3500, stock: "Out of Stock", discount: "-15%", img: blackjacks, child: [cuteWhite, cuteWhites] },
+    { id: 8, title: "REB1RTH Essential Knit Crew", category: "Coats & Jackets", oldPrice: 40, price: 1800, stock: "Out of Stock", discount: "-15%", img: blackjackt, child: [essential, knit] },
   ];
 
   const categories = ["All", "Coats & Jackets", "Hoodie", "Sweaters"];
